@@ -21,9 +21,9 @@
     },
     {
         "name": "Mechanized Infantry ",
-        "unitType": "Armor",
+        "unitType": "Infantry",
         "movement": 4,
-        "strength": 65,
+        "strength": 90,
         "cost": 400,
         "requiredTech": "Agriculture",
         "uniques": [
