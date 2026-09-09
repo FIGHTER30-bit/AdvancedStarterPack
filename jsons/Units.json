@@ -2,10 +2,11 @@
   {
     "name": "Modern Armor",
     "unitType": "Armor",
-    "movement": 5,
+    "movement": 4,
     "strength": 100,
     "cost": 500,
-    "requiredTech": ["Agriculture",
+    "requiredTechs": [
+      "Agriculture",
       "Lasers"
     ],
     "resourceRequired": "Aluminum",
@@ -22,17 +23,18 @@
     ],
     "civilopediaText": [
       {
-        "text": "A powerful advanced modern armor vehicle supplied to civilizations using the Advanced Starter difficulty."
+        "text": "A powerful advanced armoured vehicle supplied to civilizations using the Advanced Starter difficulty."
       }
     ]
   },
   {
-    "name": "Mechanized Infantry",
+    "name": "Mechanized Infantry Vehicle",
     "unitType": "Armor",
-    "movement": 4,
+    "movement": 3,
     "strength": 90,
     "cost": 400,
-    "requiredTech": ["Agriculture",
+    "requiredTechs": [
+      "Agriculture",
       "Mobile Tactics"
     ],
     "promotions": [
