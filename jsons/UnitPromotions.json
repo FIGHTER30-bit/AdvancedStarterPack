@@ -42,12 +42,11 @@
       "Armor"
     ],
     "uniques": [
-      "Heals [75] HP per turn",
       "Heals every turn even if it performs an action"
     ],
     "civilopediaText": [
       {
-        "text": "War Logistics: Instantly provides 75% HP regeneration every turn, allowing the unit to heal even if it performs an action."
+        "text": "War Logistics: All adjacent units heal +75 HP when healing, and this unit will heal every turn even if it performs an action."
       }
     ]
   },
@@ -62,12 +61,12 @@
     ],
     "civilopediaText": [
       {
-        "text": "Heal Instantly: Instantly heals 50% HP. Doing so consumes this opportunity to choose a promotion."
+        "text": "Heal Instantly: This unit heals 50% HP instantly. Doing so will consume this opportunity to choose a promotion."
       }
     ]
   },
   {
-    "name": "Duplicated Uranium Ammunition",
+    "name": "Depleted Uranium Ammunition",
     "prerequisites": [
       "War Logistics"
     ],
@@ -79,12 +78,12 @@
     ],
     "uniques": [
       "[+50]% Critical hit chance",
-      "Ignores [70]% of target defense",
-      "[+4]% Critical hit chance <for each target destroyed during the turn>"
+      "[+70]% Strength <when attacking>",
+      "[+4]% Strength <for each [Armor] unit destroyed during the turn>"
     ],
     "civilopediaText": [
       {
-        "text": "Duplicated Uranium Ammunition: High-explosive artillery rounds exclusive to Modern Armor. Provides +50% critical probability, ignores 70% of enemy defense, and stacks +4% critical rate for each target destroyed during the turn."
+        "text": "Depleted Uranium Ammunition: Exclusive to Modern Armor. Provides +50% critical probability, +70% strength when attacking using high-explosive artillery weaponry, and +4% strength critical rate for each target Armor destroyed during the current turn."
       }
     ]
   },
