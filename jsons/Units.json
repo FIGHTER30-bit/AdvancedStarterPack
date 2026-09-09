@@ -14,7 +14,7 @@
     "uniques": [
       "Not displayed as an available construction without [Agriculture]",
       "Never appears as a Barbarian",
-      "Unbuildable",
+      "Hidden from AI construction",
       "Promotions which can be chosen [Shock I] [Shock II] [Shock III] [Accuracy I] [Accuracy II] [Accuracy III] [Charge] [Cover I] [Cover II] [Mobility] [Blitz] [March] [Logistics]"
     ],
     "civilopediaText": [
@@ -37,7 +37,7 @@
     "uniques": [
       "Not displayed as an available construction without [Agriculture]",
       "Never appears as a Barbarian",
-      "Unbuildable"
+      "Hidden from AI construction",
     ],
     "civilopediaText": [
       {
