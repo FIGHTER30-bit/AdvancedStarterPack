@@ -31,7 +31,7 @@
     "movement": 4,
     "strength": 90,
     "cost": 400,
-    "requiredTech": "Agriculture",
+    "requiredTech": ["Agriculture",
       "Mobile Tactics"
     ],
     "promotions": [
