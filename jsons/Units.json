@@ -2,10 +2,10 @@
   {
     "name": "Modern Armor",
     "unitType": "Armor",
-    "movement": 4,
+    "movement": 5,
     "strength": 100,
     "cost": 500,
-    "requiredTechs": "Agriculture",
+    "requiredTech": "Agriculture",
     "resourceRequired": "Aluminum",
     "promotions": [
       "Assault",
@@ -24,12 +24,12 @@
     ]
   },
   {
-    "name": "Mechanized Infantry Vehicle",
+    "name": "Mechanized Infantry",
     "unitType": "Armor",
-    "movement": 3,
+    "movement": 4,
     "strength": 90,
     "cost": 400,
-    "requiredTechs": "Agriculture",
+    "requiredTech": "Agriculture",
     "promotions": [
       "Veteran Crew",
       "Rapid Advance"
