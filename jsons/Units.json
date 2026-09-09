@@ -2,10 +2,12 @@
   {
     "name": "Modern Armor",
     "unitType": "Armor",
-    "movement": 4,
+    "movement": 5,
     "strength": 100,
     "cost": 500,
-    "requiredTech": "Agriculture",
+    "requiredTech": ["Agriculture",
+      "Lasers"
+    ],
     "resourceRequired": "Aluminum",
     "promotions": [
       "Assault",
@@ -14,6 +16,7 @@
     "uniques": [
       "Not displayed as an available construction without [Agriculture]",
       "Never appears as a Barbarian",
+      "Unbuildable",
       "Promotions which can be chosen [Shock I] [Shock II] [Shock III] [Accuracy I] [Accuracy II] [Accuracy III] [Charge] [Cover I] [Cover II] [Mobility] [Blitz] [March] [Logistics]"
     ],
     "civilopediaText": [
@@ -25,10 +28,12 @@
   {
     "name": "Mechanized Infantry",
     "unitType": "Armor",
-    "movement": 3,
+    "movement": 4,
     "strength": 90,
     "cost": 400,
     "requiredTech": "Agriculture",
+      "Mobile Tactics"
+    ],
     "promotions": [
       "Veteran Crew",
       "Rapid Advance"
@@ -36,6 +41,7 @@
     "uniques": [
       "Not displayed as an available construction without [Agriculture]",
       "Never appears as a Barbarian",
+      "Unbuildable"
     ],
     "civilopediaText": [
       {
@@ -64,7 +70,7 @@
     ],
     "civilopediaText": [
       {
-        "text": "An advanced main battle tank unlocked via Laser technology, exclusive to the player, with devastating combat capabilities."
+        "text": "An advanced main battle tank unlocked via Laser technology, utilizing the design and appearance of Modern Armor with heavy 150 combat strength."
       }
     ]
   }
