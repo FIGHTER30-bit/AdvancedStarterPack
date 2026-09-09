@@ -1,42 +1,74 @@
 [
-    {
-        "name": "Modern Armor",
-        "unitType": "Armor",
-        "movement": 5,
-        "strength": 100,
-        "cost": 500,
-        "requiredTech": "Agriculture",
-        "promotions": [
-            "Assault",
-            "Veteran Crew"
-        ],
-        "uniques": [
-            "Not displayed as an available construction without [Laser]"
-        ],
-        "civilopediaText": [
-            {
-                "text": "A powerful advanced armoured vehicle supplied to civilizations using the Advanced Starter difficulty."
-            }
-        ]
-    },
-    {
-        "name": "Mechanized Infantry",
-        "unitType": "Armor",
-        "movement": 3,
-        "strength": 90,
-        "cost": 400,
-        "requiredTech": "Agriculture",
-        "uniques": [
-            "Not displayed as an available construction without [Mobile Tactics]"
-        ],
-        "civilopediaText": [
-            {
-                "text": "An advanced mechanized Infantry supplied as part of the Advanced Starter Pack."
-            }
-        ],
-        "promotions": [
-            "Veteran Crew",
-            "Rapid Advance"
-        ]
-    }
+  {
+    "name": "Modern Armor",
+    "unitType": "Armor",
+    "movement": 4,
+    "strength": 100,
+    "cost": 500,
+    "requiredTech": "Agriculture",
+    "resourceRequired": "Aluminum",
+    "promotions": [
+      "Assault",
+      "Veteran Crew"
+    ],
+    "uniques": [
+      "Not displayed as an available construction without [Agriculture]",
+      "Never appears as a Barbarian",
+      "Unbuildable",
+      "Promotions which can be chosen [Shock I] [Shock II] [Shock III] [Accuracy I] [Accuracy II] [Accuracy III] [Charge] [Cover I] [Cover II] [Mobility] [Blitz] [March] [Logistics]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A powerful advanced armoured vehicle supplied to civilizations using the Advanced Starter difficulty."
+      }
+    ]
+  },
+  {
+    "name": "Mechanized Infantry",
+    "unitType": "Armor",
+    "movement": 3,
+    "strength": 90,
+    "cost": 400,
+    "requiredTech": "Agriculture",
+    "promotions": [
+      "Veteran Crew",
+      "Rapid Advance"
+    ],
+    "uniques": [
+      "Not displayed as an available construction without [Agriculture]",
+      "Never appears as a Barbarian",
+      "Unbuildable"
+    ],
+    "civilopediaText": [
+      {
+        "text": "An advanced mechanized infantry vehicle supplied as part of the Advanced Starter Pack."
+      }
+    ]
+  },
+  {
+    "name": "M1A1 Abrams",
+    "unitType": "Armor",
+    "movement": 5,
+    "strength": 150,
+    "cost": 500,
+    "requiredTech": "Lasers",
+    "resourceRequired": "Aluminum",
+    "promotions": [
+      "Assault"
+      "Depleted Uranium Ammunition"
+    ],
+    "uniques": [
+      "Not displayed as an available construction without [Lasers]",
+      "Never appears as a Barbarian",
+      "Can move after attacking",
+      "Penalty when attacking cities <33>%",
+      "Rough terrain penalty",
+      "Promotions which can be chosen [Shock I] [Shock II] [Shock III] [Accuracy I] [Accuracy II] [Accuracy III] [Charge] [Cover I] [Cover II] [Mobility] [Blitz] [March] [Logistics]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "An advanced main battle tank unlocked via Laser technology, exclusive to the player, with devastating combat capabilities."
+      }
+    ]
+  }
 ]
