@@ -15,13 +15,14 @@
     ],
     "uniques": [
       "Not displayed as an available construction without [Agriculture]",
+      "Not displayed as an available construction without [Lasers]",
       "Never appears as a Barbarian",
       "Unbuildable",
       "Promotions which can be chosen [Shock I] [Shock II] [Shock III] [Accuracy I] [Accuracy II] [Accuracy III] [Charge] [Cover I] [Cover II] [Mobility] [Blitz] [March] [Logistics]"
     ],
     "civilopediaText": [
       {
-        "text": "A powerful advanced armoured vehicle supplied to civilizations using the Advanced Starter difficulty."
+        "text": "A powerful advanced modern armor vehicle supplied to civilizations using the Advanced Starter difficulty."
       }
     ]
   },
@@ -40,6 +41,7 @@
     ],
     "uniques": [
       "Not displayed as an available construction without [Agriculture]",
+      "Not displayed as an available construction without [Mobile Tactics]",
       "Never appears as a Barbarian",
       "Unbuildable"
     ],
