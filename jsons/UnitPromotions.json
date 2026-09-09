@@ -3,7 +3,7 @@
     "name": "Assault",
     "unitTypes": [
       "Mounted",
-      "Armored",
+      "Armor",
       "WaterCivilian"
     ],
     "uniques": [
@@ -20,7 +20,7 @@
     "name": "Amphibious Support",
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "Embarkation allows crossing Oceans immediately",
@@ -39,7 +39,7 @@
     ],
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "Heals [75] HP per turn",
@@ -55,7 +55,7 @@
     "name": "Heal Instantly",
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "Heals [50] HP instantly"
@@ -72,7 +72,7 @@
       "War Logistics"
     ],
     "unitTypes": [
-      "Armored"
+      "Armor"
     ],
     "units": [
       "Modern Armor"
@@ -95,7 +95,7 @@
     ],
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "[+1] Movement"
@@ -110,7 +110,7 @@
     "name": "Tank Hunter",
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "[+25]% Strength <vs [Armored] units>"
@@ -128,7 +128,7 @@
     ],
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "[+20]% Strength <when attacking>"
@@ -142,7 +142,7 @@
   {
     "name": "Reactive Armor",
     "unitTypes": [
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "[+20]% Strength <when defending>"
@@ -160,7 +160,7 @@
     ],
     "unitTypes": [
       "Mounted",
-      "Armored"
+      "Armor"
     ],
     "uniques": [
       "[+25]% Strength <vs cities>"
@@ -175,7 +175,7 @@
     "name": "Rapid Advance",
     "unitTypes": [
       "Mounted",
-      "Armored",
+      "Armor",
       "WaterCivilian"
     ],
     "uniques": [
@@ -191,7 +191,7 @@
     "name": "Amphibious Assault",
     "unitTypes": [
       "Mounted",
-      "Armored",
+      "Armor",
       "WaterCivilian"
     ],
     "uniques": [
@@ -207,7 +207,7 @@
     "name": "Veteran Crew",
     "unitTypes": [
       "Mounted",
-      "Armored",
+      "Armor",
       "WaterCivilian"
     ],
     "uniques": [
