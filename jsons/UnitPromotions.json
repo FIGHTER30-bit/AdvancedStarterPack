@@ -1,149 +1,222 @@
 [
-    {
-        "name": "Assault",
-        "unitTypes": [
-            "Mounted",
-            "Armor",
-            "WaterCivilian"
-        ],
-        "uniques": [
-            "[1] additional attacks per turn"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Assault: grants one additional attack per turn. Intended for aggressive armored and cavalry formations."
-            }
-        ]
-    },
-    {
-        "name": "Blitz",
-        "prerequisites": [
-            "Assault"
-        ],
-        "unitTypes": [
-            "Mounted",
-            "Armor"
-        ],
-        "uniques": [
-            "[+1] Movement"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Blitz: increases battlefield mobility, allowing the unit to exploit breakthroughs and encircle enemies."
-            }
-        ]
-    },
-    {
-        "name": "Tank Hunter",
-        "unitTypes": [
-            "Mounted",
-            "Armor"
-        ],
-        "uniques": [
-            "[+25]% Strength <vs [Armor] units>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Tank Hunter: +25% strength when fighting armored units."
-            }
-        ]
-    },
-    {
-        "name": "Breakthrough",
-        "prerequisites": [
-            "Blitz"
-        ],
-        "unitTypes": [
-            "Mounted",
-            "Armor"
-        ],
-        "uniques": [
-            "[+20]% Strength <when attacking>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Breakthrough: +20% strength when attacking."
-            }
-        ]
-    },
-    {
-        "name": "Reactive Armor",
-        "unitTypes": [
-            "Armor"
-        ],
-        "uniques": [
-            "[+20]% Strength <when defending>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Reactive Armor: +20% strength when defending."
-            }
-        ]
-    },
-    {
-        "name": "Siege Breaker",
-        "prerequisites": [
-            "Breakthrough"
-        ],
-        "unitTypes": [
-            "Mounted",
-            "Armor"
-        ],
-        "uniques": [
-            "[+25]% Strength <vs cities>"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Siege Breaker: +25% strength when attacking cities."
-            }
-        ]
-    },
-    {
-        "name": "Rapid Advance",
-        "unitTypes": [
-            "Mounted",
-            "Armor",
-            "WaterCivilian"
-        ],
-        "uniques": [
-            "[+1] Movement"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Rapid Advance: increases movement by 1."
-            }
-        ]
-    },
-    {
-        "name": "Amphibious Assault",
-        "unitTypes": [
-            "Mounted",
-            "Armor",
-            "WaterCivilian"
-        ],
-        "uniques": [
-            "Eliminates combat penalty for attacking from the sea"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Amphibious Assault: eliminates the combat penalty for attacks launched from the sea."
-            }
-        ]
-    },
-    {
-        "name": "Veteran Crew",
-        "unitTypes": [
-            "Mounted",
-            "Armor",
-            "WaterCivilian"
-        ],
-        "uniques": [
-            "[+15]% Strength"
-        ],
-        "civilopediaText": [
-            {
-                "text": "Veteran Crew: +15% combat strength."
-            }
-        ]
-    }
+  {
+    "name": "Assault",
+    "unitTypes": [
+      "Mounted",
+      "Armored",
+      "WaterCivilian"
+    ],
+    "uniques": [
+      "[1] additional attacks per turn",
+      "[+1] Movement <upon defeating a unit>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Assault: grants one additional attack per turn and restores movement upon destroying an enemy unit."
+      }
+    ]
+  },
+  {
+    "name": "Amphibious Support",
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "Embarkation allows crossing Oceans immediately",
+      "All adjacent units gain [1] Movement"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Amphibious Support: Instantly grants ocean crossing capabilities and extends swimming/movement support to adjacent units for the rest of the game."
+      }
+    ]
+  },
+  {
+    "name": "War Logistics",
+    "prerequisites": [
+      "Assault"
+    ],
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "Heals [75] HP per turn",
+      "Heals every turn even if it performs an action"
+    ],
+    "civilopediaText": [
+      {
+        "text": "War Logistics: Instantly provides 75% HP regeneration every turn, allowing the unit to heal even if it performs an action."
+      }
+    ]
+  },
+  {
+    "name": "Heal Instantly",
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "Heals [50] HP instantly"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Heal Instantly: Instantly heals 50% HP. Doing so consumes this opportunity to choose a promotion."
+      }
+    ]
+  },
+  {
+    "name": "Duplicated Uranium Ammunition",
+    "prerequisites": [
+      "War Logistics"
+    ],
+    "unitTypes": [
+      "Armored"
+    ],
+    "units": [
+      "Modern Armor"
+    ],
+    "uniques": [
+      "[+50]% Critical hit chance",
+      "Ignores [70]% of target defense",
+      "[+4]% Critical hit chance <for each target destroyed during the turn>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Duplicated Uranium Ammunition: High-explosive artillery rounds exclusive to Modern Armor. Provides +50% critical probability, ignores 70% of enemy defense, and stacks +4% critical rate for each target destroyed during the turn."
+      }
+    ]
+  },
+  {
+    "name": "Blitz",
+    "prerequisites": [
+      "Assault"
+    ],
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "[+1] Movement"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Blitz: increases battlefield mobility, allowing the unit to exploit breakthroughs and encircle enemies."
+      }
+    ]
+  },
+  {
+    "name": "Tank Hunter",
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "[+25]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Tank Hunter: +25% strength when fighting armored units."
+      }
+    ]
+  },
+  {
+    "name": "Breakthrough",
+    "prerequisites": [
+      "Blitz"
+    ],
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "[+20]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Breakthrough: +20% strength when attacking."
+      }
+    ]
+  },
+  {
+    "name": "Reactive Armor",
+    "unitTypes": [
+      "Armored"
+    ],
+    "uniques": [
+      "[+20]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Reactive Armor: +20% strength when defending."
+      }
+    ]
+  },
+  {
+    "name": "Siege Breaker",
+    "prerequisites": [
+      "Breakthrough"
+    ],
+    "unitTypes": [
+      "Mounted",
+      "Armored"
+    ],
+    "uniques": [
+      "[+25]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Siege Breaker: +25% strength when attacking cities."
+      }
+    ]
+  },
+  {
+    "name": "Rapid Advance",
+    "unitTypes": [
+      "Mounted",
+      "Armored",
+      "WaterCivilian"
+    ],
+    "uniques": [
+      "[+1] Movement"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Rapid Advance: increases movement by 1."
+      }
+    ]
+  },
+  {
+    "name": "Amphibious Assault",
+    "unitTypes": [
+      "Mounted",
+      "Armored",
+      "WaterCivilian"
+    ],
+    "uniques": [
+      "Eliminates combat penalty for attacking from the sea"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Amphibious Assault: eliminates the combat penalty for attacks launched from the sea."
+      }
+    ]
+  },
+  {
+    "name": "Veteran Crew",
+    "unitTypes": [
+      "Mounted",
+      "Armored",
+      "WaterCivilian"
+    ],
+    "uniques": [
+      "[+15]% Strength"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Veteran Crew: +15% combat strength."
+      }
+    ]
+  }
 ]
