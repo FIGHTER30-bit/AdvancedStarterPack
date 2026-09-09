@@ -42,8 +42,8 @@
       "Armor"
     ],
     "uniques": [
-      "All adjacent units heal [+75] HP when healing",
-      "Heals every turn even if it performs an action"
+      "Unit will heal every turn, even if it performs an action",
+      "Units adjacent to this unit heal [75] HP per turn when healing"
     ],
     "civilopediaText": [
       {
