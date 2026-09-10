@@ -73,7 +73,7 @@
     ]
   },
   {
-        "name": "AI Modern Armor",
+        "name": "Modern Armor AI",
         "unitType": "Armor",
         "movement": 4,
         "strength": 80,
@@ -85,7 +85,7 @@
         ]
     },
     {
-        "name": "AI Mechanized Infantry",
+        "name": "Mechanized Infantry AI",
         "unitType": "Armor",
         "movement": 3,
         "strength": 65,
