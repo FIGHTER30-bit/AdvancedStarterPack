@@ -71,5 +71,28 @@
         "text": "An advanced main battle tank unlocked via Laser technology, utilizing the design and appearance of Modern Armor with heavy 150 combat strength."
       }
     ]
-  }
+  },
+  {
+        "name": "AI Modern Armor",
+        "unitType": "Armor",
+        "movement": 4,
+        "strength": 80,
+        "cost": 500,
+        "requiredTech": "Lasers",
+        "requiredResource": "Aluminum",
+        "uniques": [
+            "Never appears as a Barbarian unit"
+        ]
+    },
+    {
+        "name": "AI Mechanized Infantry",
+        "unitType": "Armor",
+        "movement": 3,
+        "strength": 65,
+        "cost": 400,
+        "requiredTech": "Mobile Tactics",
+        "uniques": [
+            "Never appears as a Barbarian unit"
+        ]
+    }
 ]
