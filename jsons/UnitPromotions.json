@@ -89,7 +89,7 @@
     ]
   },
   {
-    "name": "Blitz",
+    "name": "Blitz IV",
     "prerequisites": [
       "Assault"
     ],
@@ -102,7 +102,7 @@
     ],
     "civilopediaText": [
       {
-        "text": "Blitz: increases battlefield mobility, allowing the unit to exploit breakthroughs and encircle enemies."
+        "text": "Blitz IV: increases battlefield mobility, allowing the unit to exploit breakthroughs and encircle enemies."
       }
     ]
   },
@@ -124,7 +124,7 @@
   {
     "name": "Breakthrough",
     "prerequisites": [
-      "Blitz"
+      "Blitz IV"
     ],
     "unitTypes": [
       "Mounted",
