@@ -80,11 +80,28 @@
     "uniques": [
       "[+50]% Critical hit chance",
       "[+70]% Strength <when attacking>",
-      "[+4]% Strength <for each [Armor] unit destroyed during the turn>"
+      "[+50]% Strength <vs [Armor] units>"
     ],
     "civilopediaText": [
       {
-        "text": "Depleted Uranium Ammunition: Exclusive to Modern Armor. Provides +50% critical probability, +70% strength when attacking using high-explosive artillery weaponry, and +4% strength critical rate for each target Armor destroyed during the current turn."
+        "text": "Depleted Uranium Ammunition: Exclusive to Modern Armor. Provides +50% critical probability, +70% strength when attacking, and +50% strength against enemy armored units."
+      }
+    ]
+  },
+  {
+    "name": "Tungsten Ammunition",
+    "prerequisites": [
+      "Depleted Uranium Ammunition"
+    ],
+    "unitTypes": [
+      "Armor"
+    ],
+    "uniques": [
+      "[+500]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Tungsten Ammunition: Advanced sub-caliber kinetic energy rounds providing a devastating +500% strength bonus when attacking."
       }
     ]
   },
@@ -150,6 +167,23 @@
     "civilopediaText": [
       {
         "text": "Reactive Armor: +20% strength when defending."
+      }
+    ]
+  },
+  {
+    "name": "Chobham Armored",
+    "prerequisites": [
+      "Reactive Armor"
+    ],
+    "unitTypes": [
+      "Armor"
+    ],
+    "uniques": [
+      "[+50]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Chobham Armored: Advanced composite matrix plating providing +50% strength when defending against incoming attacks."
       }
     ]
   },
