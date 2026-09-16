@@ -6,7 +6,7 @@
     "strength": 100,
     "cost": 500,
     "requiredTech": "Agriculture",
-    "resourceRequired": "Aluminum",
+    "requiredResource": "Aluminum",
     "promotions": [
       "Assault",
       "Veteran Crew"
