@@ -58,11 +58,11 @@
       "Armor"
     ],
     "uniques": [
-      "Heals [50] HP instantly"
+      "Heals [90] HP instantly"
     ],
     "civilopediaText": [
       {
-        "text": "Heal Instantly: This unit heals 50% HP instantly. Doing so will consume this opportunity to choose a promotion."
+        "text": "Heal Instantly IV: This unit heals 90% HP instantly. Doing so will consume this opportunity to choose a promotion."
       }
     ]
   },
